@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Niconne&family=Noto+Sans:wght@100&family=Poppins:wght@200;300;500&family=Raleway:wght@500;600&family=Redressed&family=Roboto:wght@900&family=Ubuntu&display=swap');
+
+/* font-family: 'Lato', sans-serif;
+
+font-family: 'Niconne', cursive;
+
+font-family: 'Noto Sans', sans-serif;
+
+font-family: 'Poppins', sans-serif;
+
+font-family: 'Raleway', sans-serif;
+
+font-family: 'Redressed', cursive;
+
+font-family: 'Roboto', sans-serif;
+
+font-family: 'Ubuntu', sans-serif; */
+* {
+    margin: 0;
+    padding: 0px;
+}
+
+
+body {
+    background-color: #141125;
+    color: #a9ad96;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 1px;
+    border-color: #a9ad96;
+    /* border-style: solid; */
+
+}
+
+button {
+    font-family: 'Raleway', sans-serif;
+    margin: 1pc;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: none;
+    background-color: #141125;
+    color: aqua;
+    display: inline-flex;
+    justify-content: center;
+}
+
+@media (max-width: 864px) {
+    button {
+        /* border: 1px solid black; */
+        display: inline-flex;
+        justify-content: center;
+        margin-left: 1pc;
+        margin-right: 1pc;
+        margin: 1pc;
+    }
+}
+
+@media (max-width: 423px) {
+    button {
+        /* border: 1px solid black;
+        display: inline-flex;
+        justify-content: center;
+        margin-left: px;
+        margin-right: px;
+        margin: px; */
+        display: none;
+    }
+}
+
+/* @media (max-width: 400px) {
+    button {
+        border: 1px solid black;
+        display: inline-flex;
+        justify-content: center;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin: 0pc;
+    }
+} */
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 17px;
+}
+
+@media (max-width: 897px) {
+    a {
+        font-size: 15px;
+    }
+}
+
+.school_images{
+    display: flex;
+    /* justify-content: center; */
+    margin-top: 7vh;
+    width: 1000px;
+    overflow: hidden;
+    overflow-x: scroll;
+    margin-left: 240px;
+}
+.school_img_li{
+    border: solid 1px;
+    border-radius: 10px;
+    padding: 10px;
+    list-style: none;
+}
+
+.images{
+    width: 900px;
+    height: auto;
+}
+.arrows_images{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+.left_arrow{
+    display: flex;
+    justify-content: start;
+}
+.right_arrow{
+    display: flex;
+    justify-content: end;
+}
+/* .images{
+    display: inline-block;
+    justify-content: center;
+    width: 900px;
+    height: auto;
+    border: solid 1px;
+    padding: 25px;
+    border-radius: 10px;
+} */
+
+.information_heading{
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+.information_p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+.image_box_information{
+    height: 500px;
+    width: 1000px;
+    border: solid 1px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin-left: 15vw;
+    margin-top: 7vh;
+}
+
+.facilities_h{
+    margin-top: 10vh;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+.info_facilities{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    text-align: right;
+    margin-left: 63vw;
+    margin-right: 5vw;
+    margin-top: 10vh;
+}
+.images_facilities_dl{
+    height: 400px;
+    width: 700px;
+    border: solid 1px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin-left: 10vw;
+    margin-top: -17vh;
+}
+.facilities_h_r{
+    margin-top: 10vh;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+.info_facilities_r{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    text-align: left;
+    margin-left: 8vw;
+    margin-right: 59vw;
+    margin-top: 10vh;
+}
+.images_facilities_dr{
+    height: 400px;
+    width: 700px;
+    border: solid 1px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin-left: 47vw;
+    margin-top: -17vh;
+}
+
+.rules{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10vh;
+}
+.rules_p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+
+.rules_li{
+    font-family: 'Raleway',sans-serif;
+    font-size: 15px;
+    text-align: start;
+    margin-left: 15vw;
+    padding: 15px;
+}
+.list_rules{
+    margin-top: 5vh;
+}
+.footer{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
