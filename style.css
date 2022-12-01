@@ -545,13 +545,27 @@ footer {
     padding-top: 5vh;
     margin-left: 5vw;
 }
+.ceo_right{
+    font-family: 'Raleway', sans-serif;
+    /* font-size: 40px; */
+    text-align: left;
+    padding-top: 5vh;
+    margin-left: 5vw;
+}
+.ceo_3{
+    font-family: 'Raleway', sans-serif;
+    /* font-size: 40px; */
+    text-align: left;
+    padding-top: 5vh;
+    margin-left: 5vw;
+}
 
 .about_faculty_1{
     font-family: 'Raleway', sans-serif;
     text-align: left;
 
     margin-left: 10vw;
-    margin-right: 23vw;
+    /* margin-right: 23vw; */
     padding-top: 4vh;
     font-size: 15px;
 }
@@ -571,7 +585,7 @@ footer {
     text-align: left;
 
     margin-left: 50vw;
-    margin-right: 23vw;
+    /* margin-right: 23vw; */
     padding-top: 4vh;
     font-size: 15px;
 }

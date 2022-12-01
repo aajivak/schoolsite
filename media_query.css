@@ -182,7 +182,7 @@
 
     .topic_one_left_heading_c {
         margin-top: 91vh;
-        margin-left: 9vw;
+        margin-left: 7vw;
     }
 
     .topic_one_left_paragraph {
@@ -235,7 +235,7 @@
         margin-top: 5vh;
         list-style: decimal-leading-zero;
         margin-left: 18vw;
-        margin-right: 9vw;
+        /* margin-right: 9vw; */
     }
 
     .image_box_two {
@@ -244,7 +244,7 @@
         border: solid 1px;
         display: flex;
         justify-content: end;
-        margin-right: 9vw;
+        /* margin-right: 9vw; */
         margin-top: -121vh;
         margin-left: 10vw;
     }
@@ -256,13 +256,53 @@
     .belongs_to_info {
         margin-left: 9vw;
         margin-right: 9vw;
-        
+
     }
+
     .horizontal_line_o {
-            padding-top: 10vh;
-          
+        padding-top: 10vh;
+
     }
-    .footer{
+
+    .ceo {
+        font-family: 'Raleway', sans-serif;
+        text-align: left;
+        padding-top: 5vh;
+        margin-left: 2vw;
+        margin-top: 32vh;
+    }
+
+    .ceo_right {
+        font-family: 'Raleway', sans-serif;
+        text-align: left;
+        padding-top: 5vh;
+        margin-left: -35vw;
+        margin-top: 59vh;
+    }
+    .ceo_3 {
+        font-family: 'Raleway', sans-serif;
+        text-align: left;
+        padding-top: 5vh;
+        margin-left: 2vw;
+        margin-top: 57vh;
+    }
+
+    .faculties_image_right {
+        height: 33vh;
+        width: 84vw;
+        margin-left: 5vw;
+        margin-top: -59vh;
+    }
+
+    .faculties_image_left {
+
+        height: 33vh;
+        width: 83vw;
+        margin-left: 42vw;
+        margin-top: -59vh;
+    }
+
+    .footer {
         font-family: 'Raleway', sans-serif;
         font-size: 12px;
         text-align: center;
