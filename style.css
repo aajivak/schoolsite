@@ -344,6 +344,13 @@ footer {
 }
 
 .add_p {
+    display: flex;
+    color: beige;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 7px;
+    margin-left: -10px;
+}
+.add_p_top {
     color: beige;
     font-family: 'Raleway', sans-serif;
     padding-top: 7px;
